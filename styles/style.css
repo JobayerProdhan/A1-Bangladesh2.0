@@ -228,7 +228,7 @@ header nav button:hover{
 /* younus section styles  */
 
 .yunus{
-    width: 1280px;
+    width: 1260px;
     height: 260px;
     margin: 0 auto;
     margin-top: 200px;
@@ -240,6 +240,7 @@ header nav button:hover{
     background-image: url("../images/pic/quote-bg.png");
     background-repeat: no-repeat;
     padding-left: 20px;
+
 
 }
 .yunus p{
@@ -259,3 +260,117 @@ header nav button:hover{
     margin-top: 5px;
 }
 
+/* opinion section styles  */
+.opinion{
+    width:1280px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 120px;
+   
+}
+
+.opinion h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.opinion table{
+    width: 1190px;
+    margin: 20px;
+    border-collapse: collapse;
+    font-size: 25px;
+    text-align: left;
+    
+}
+.opinion-table{
+    background-color: white;
+    padding: 30px;
+    border-radius:16px ;
+}
+.opinion table th , td{
+    border: 1px solid rgba(8, 8, 8, 0.228);
+    padding: 10px;
+}
+
+thead{
+    background-color:#C6E4D6 ;
+}
+.opinion select{
+    background-color: #C6E4D6;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.opinion-section{
+    text-align: center;
+}
+
+/* news section styles */
+.news{
+    width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 220px;
+}
+.news h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.news1{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.news1-img-sat{
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.news1-content h2{
+       font-weight: bold;
+       font-size: 32px;
+}
+.news1-time{
+    display: flex;
+    gap: 20px;
+    font-weight: 200;
+    font-size: 18px;
+    color: rgb(130, 130, 130);
+}
+
+.news1 p{
+    color:rgb(130, 130, 130) ;
+    font-size: 18px;
+}
+
+.news1-content button{ 
+    border: none;
+    width: 122px;
+    height: 41px;
+    border: none;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: white; 
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.news1-content button:hover{
+    background-color: #f5f8f7;
+    transform: scale(1.05);
+    color: black;
+    border: 1px solid #006A50;
+}
+
+
+
+    

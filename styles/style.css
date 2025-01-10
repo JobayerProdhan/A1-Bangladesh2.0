@@ -1,5 +1,5 @@
-/* nav section style  */
 
+/* nav section style  */
 header nav{
     display: flex;
     justify-content:space-between;
@@ -19,11 +19,16 @@ header nav button {
     color: #006A50;
     border:1px solid #006A50;
     border-radius: 8px;
-   
     font-size: 20px;
     font-weight: 700;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+header nav button:hover{
+    background-color: #006A50; 
+    color: #FFFFFF; 
+}
 /* banner section styles  */
 .banner{
     background-color: #C6E4D6 ;
@@ -58,12 +63,59 @@ header nav button {
     border: none;
     border-radius: 10px;
     font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
+.banner-text button:hover{
+    background-color: #f5f8f7;
+    transform: scale(1.05);
+    color: black;
+    border: 1px solid #006A50;
+}
 .banner-img img{
     height: 400px;
     width: 450px;
     margin-top: 60px;
     margin-left: 3px;
     margin-right: 50px;
+}
+/* pillars section style  */
+.pillars{
+    width: 1280px;
+    height: 300px;
+    margin: 0 auto;
+    /* background-color: red; */
+    margin-top: 120px;
+}
+.pillars h2{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 3px;
+    /* background-color: aqua; */
+   
+}
+.pillars-card-containers{
+    display: flex;
+    margin: 0;
+}
+.pillars-card{
+    width: 300px;
+    height: 200px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 25px;
+    border: 0 solid black;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+.pillars-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 6px 6px 15px 6px rgba(0, 0, 0, 0.3);
+}
+
+.pillars-card h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
 }

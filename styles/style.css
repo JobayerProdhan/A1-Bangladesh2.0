@@ -436,7 +436,7 @@ thead{
 }
 
 .donate input:hover{
-    background-color: #f0f0f0;
+    background-color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transform: scale(1.05)
    
@@ -467,4 +467,74 @@ thead{
     transform: scale(1.05);
     color: black;
 }
+
+/* subscribe section styles  */
     
+.subscribe{
+    width: 1280px;
+    height: 300px;
+    margin: 0 auto;
+    background-color:#C6E4D6;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.subscribe-content{
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.subscribe-content h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.subscribe-content-text{
+     width: 600px;
+     margin: 0 auto;
+}
+.subscribe-content-input-button{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.subscribe-content-input-button input{
+     width: 600px;
+     height: 55px;
+     /* margin: 0 auto; */
+     margin-left: 300px;
+     border: 1px solid #ccc;
+     border-right: none;
+     border-radius: 5px 0 0 5px;
+     font-size: 18px;
+     margin-right: none;
+     transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.subscribe-content-input-button input:hover{
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05)
+   
+}
+
+.subscribe-content-input-button input::placeholder{
+    padding-left: 20px;
+}
+.subscribe-content-input-button button{
+    height: 55px;
+    width: 150px;
+    background-color: #006A50;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: none;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.subscribe-content-input-button button:hover{
+    background-color: #ffffff;
+    color: #006A50;
+}

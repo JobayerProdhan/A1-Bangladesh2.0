@@ -1,6 +1,11 @@
 body{
     background-color: #F1F1F3;
 }
+.work-sans-normal {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 /* nav section style  */
 header nav{
     display: flex;
@@ -101,7 +106,7 @@ header nav button:hover{
 }
 .pillars-card{
     width: 300px;
-    height: 220px;
+    height: 250px;
     background-color: #FFFFFF;
     margin: 20px;
     margin-left: 0;
@@ -252,12 +257,14 @@ header nav button:hover{
 .yunus-content h2{
     padding-left: 20px;
     font-size: 30px;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 .yunus h5{
     padding-left: 20px;
     font-weight:200;
-    margin-top: 5px;
+    margin-top: 1px;
 }
 
 /* opinion section styles  */
@@ -557,7 +564,7 @@ footer{
 }
 .footer-icon-container{
     justify-content: space-between;
-    height: 30px;
+    height: 50px;
 }
 .footer-icon{
     margin: 10px;

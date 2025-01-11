@@ -156,6 +156,12 @@ header nav button:hover{
     padding-left: 30px;
     padding-top: 50px;
     padding-right: 40px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+.vision-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 6px 6px 15px 6px rgba(0, 0, 0, 0.3);
 }
 .vision-card h2{
     font-weight: bold;

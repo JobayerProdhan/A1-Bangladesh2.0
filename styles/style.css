@@ -506,7 +506,7 @@ thead{
      margin-left: 300px;
      border: 1px solid #ccc;
      border-right: none;
-     border-radius: 5px 0 0 5px;
+     border-radius: 10px 0 0 10px;
      font-size: 18px;
      margin-right: none;
      transition: background-color 0.3s ease, transform 0.3s ease;
@@ -515,7 +515,9 @@ thead{
 .subscribe-content-input-button input:hover{
     background-color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05)
+    transform: scale(1.05);
+    border-radius: 10px;
+    
    
 }
 
@@ -526,7 +528,7 @@ thead{
     height: 55px;
     width: 150px;
     background-color: #006A50;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 10px 10px 0;
     font-size: 18px;
     cursor: pointer;
     margin-left: none;
@@ -536,5 +538,29 @@ thead{
 
 .subscribe-content-input-button button:hover{
     background-color: #ffffff;
-    color: #006A50;
+    color: #085d47;
+    border: 1px solid rgb(141, 140, 140);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* footer section styles  */
+footer{
+    width: cover;
+    background-color: white;
+    margin: 0;
+}
+.footer-content{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-icon-container{
+    justify-content: space-between;
+    height: 30px;
+}
+.footer-icon{
+    margin: 10px;
+    width: 24px;
+    height: 24px;
 }
